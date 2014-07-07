@@ -1,0 +1,4 @@
+vmf/**/*.bsp
+vmf/*.log
+vmf/*.prt
+vmf/*.vmx
