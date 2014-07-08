@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5845"
-	"mapversion" "500"
+	"editorbuild" "6412"
+	"mapversion" "502"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "500"
+	"mapversion" "502"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34204,8 +34204,10 @@ entity
 {
 	"id" "8494"
 	"classname" "info_ff_ship"
+	"color" "$ship_colour"
 	"health" "20"
 	"mainlight" "light"
+	"name" "$ship_name"
 	"origin" "480 0 128"
 	"targetname" "ship"
 	"warnlight" "warnlight"
