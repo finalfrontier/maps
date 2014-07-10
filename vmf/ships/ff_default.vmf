@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "502"
+	"mapversion" "506"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "502"
+	"mapversion" "506"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -98,7 +98,7 @@ world
 		side
 		{
 			"id" "24"
-			"plane" "(1280 128 128) (1280 160 128) (1536 160 128)"
+			"plane" "(1280 160 128) (1536 160 128) (1536 64 128)"
 			"material" "/FF_WALLCONCRETE"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -109,7 +109,7 @@ world
 		side
 		{
 			"id" "23"
-			"plane" "(1632 63.9999 64) (1632 160 64) (1472 160 0)"
+			"plane" "(1472 128 0) (1632 64 64) (1632 160 64)"
 			"material" "/FF_WALLCONCRETE"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[-1 0 0 -256] 0.25"
@@ -120,7 +120,7 @@ world
 		side
 		{
 			"id" "22"
-			"plane" "(1536 63.9999 128) (1536 160 128) (1632 160 64)"
+			"plane" "(1536 160 128) (1632 160 64) (1632 64 64)"
 			"material" "/FF_WALLCONCRETE"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -131,7 +131,7 @@ world
 		side
 		{
 			"id" "21"
-			"plane" "(1472 128 0) (1472 160 0) (1280 160 128)"
+			"plane" "(1280 128 128) (1472 128 0) (1472 160 0)"
 			"material" "/FF_WALLCONCRETE"
 			"uaxis" "[0 -1 0 256] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -142,7 +142,7 @@ world
 		side
 		{
 			"id" "20"
-			"plane" "(1472 160 0) (1632 160 64) (1536 160 128)"
+			"plane" "(1632 160 64) (1536 160 128) (1280 160 128)"
 			"material" "/FF_WALLCONCRETE"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -153,7 +153,7 @@ world
 		side
 		{
 			"id" "19"
-			"plane" "(1280 128 128) (1536 63.9999 128) (1632 63.9999 64)"
+			"plane" "(1536 64 128) (1632 64 64) (1472 128 0)"
 			"material" "/FF_WALLCONCRETE_STRIPE0A"
 			"uaxis" "[1 0 0 256] 0.25"
 			"vaxis" "[0 0 -1 -64] 0.25"
@@ -33495,6 +33495,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "60622"
+		side
+		{
+			"id" "12087"
+			"plane" "(1548 128 128) (1632 128 128) (1632 -132 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12088"
+			"plane" "(1548 -132 64) (1632 -132 64) (1632 128 64)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12089"
+			"plane" "(1548 128 128) (1548 -132 128) (1548 -132 64)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12090"
+			"plane" "(1632 128 64) (1632 -132 64) (1632 -132 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12091"
+			"plane" "(1632 128 128) (1548 128 128) (1548 128 64)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12092"
+			"plane" "(1632 -132 64) (1548 -132 64) (1548 -132 128)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 135 108"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -34225,7 +34301,7 @@ entity
 	"id" "8789"
 	"classname" "info_ff_roomcorner"
 	"index" "1"
-	"origin" "1632 64 64"
+	"origin" "1544 80 64"
 	"room" "room_piloting"
 	editor
 	{
@@ -34240,7 +34316,7 @@ entity
 	"id" "8796"
 	"classname" "info_ff_roomcorner"
 	"index" "2"
-	"origin" "1632 -64 64"
+	"origin" "1544 -80 64"
 	"room" "room_piloting"
 	editor
 	{
@@ -43913,94 +43989,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "27689"
-	"classname" "func_detail"
-	solid
-	{
-		"id" "27684"
-		side
-		{
-			"id" "8106"
-			"plane" "(1544 95.9999 144) (1552 95.9999 144) (1552 -96.0001 144)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[0 -1 0 256] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8105"
-			"plane" "(1552 95.9999 64) (1544 95.9999 64) (1544 -96.0001 64)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[0 -1 0 256] 0.25"
-			"vaxis" "[-1 0 0 -128] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8104"
-			"plane" "(1544 95.9999 64) (1552 95.9999 64) (1552 95.9999 144)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8103"
-			"plane" "(1552 -96.0001 64) (1544 -96.0001 64) (1544 -96.0001 144)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8102"
-			"plane" "(1552 95.9999 64) (1552 -96.0001 64) (1552 -96.0001 144)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[0 -1 0 256] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "8101"
-			"plane" "(1544 -96.0001 64) (1544 95.9999 64) (1544 95.9999 144)"
-			"material" "METAL/METALDOOR032A"
-			"uaxis" "[0 -1 0 256] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "0 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
 	}
 }
 entity
