@@ -1,4 +1,4 @@
 vmf/**/*.bsp
-vmf/*.log
-vmf/*.prt
-vmf/*.vmx
+vmf/**/*.log
+vmf/**/*.prt
+vmf/**/*.vmx
